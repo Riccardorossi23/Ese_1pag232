@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ese_1pag232
 {
-    class Program
+    class Program2
     {
         static void Main(string[] args)
         {
