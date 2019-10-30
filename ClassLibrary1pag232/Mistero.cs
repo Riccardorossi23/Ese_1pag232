@@ -38,7 +38,7 @@ namespace ClassLibrary1pag232
             {
                 return Mistero4(n / 10);
             }
-            throw new Exception("non andrà");
+            throw new Exception("non funziona");
 
 
         }
@@ -94,8 +94,10 @@ namespace ClassLibrary1pag232
             {
                 return b;
             }
-            else if (a == b && b == z)
+            else 
             {
+                a = b;
+                b = z;
                 return Mistero8(a , b);
             }
                
